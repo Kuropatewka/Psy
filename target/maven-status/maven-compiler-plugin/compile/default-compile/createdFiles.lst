@@ -1,0 +1,4 @@
+pl/camp/it/model/Dog.class
+pl/camp/it/database/Persistance.class
+pl/camp/it/App.class
+pl/camp/it/database/DogRepository.class

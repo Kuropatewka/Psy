@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DogRepository {
-    private static List<Dog> dogs = new ArrayList<>();
+    private List<Dog> dogs = new ArrayList<>();
     private static final DogRepository dogRepository = new DogRepository();
 
     private DogRepository() {
@@ -16,7 +16,7 @@ public class DogRepository {
     }
 
 
-    public static List<Dog> getDogs() {
+    public List<Dog> getDogs() {
         return dogs;
     }
 
